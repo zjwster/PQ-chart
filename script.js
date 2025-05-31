@@ -118,7 +118,7 @@ function updateChart() {
                         label: function(context) {
                             let label = context.dataset.label || '';
                             if (label) {
-                                label += ': '; Compression Ratio (CR). CR is the ratio of the total volume of the cylinder to the clearance volume.
+                                label += ': ';
                             }
                             if (context.raw.x !== null) {
                                 label += `P: ${context.raw.x.toFixed(2)}`;
